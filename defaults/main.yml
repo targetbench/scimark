@@ -1,2 +1,6 @@
----
-# defaults file for scimark
+scimark:
+  scimark:
+    category: 'Performance cpu_sincore sincore_float scimark'
+    scores_way: 'compute_speed_score 1'
+    command: 'scimark'
+    parser: 'scimark_parser'
